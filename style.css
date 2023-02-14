@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+
+header{
+    background-color: blue;
+    height: 40px;
+    width: 100%;
+    /* alineamiento de Div */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* div center end */
+
+    /* other way */
+    display: grid;
+    place-items: center;
+    /*  */
+}
